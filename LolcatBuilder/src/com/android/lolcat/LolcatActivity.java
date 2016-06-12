@@ -568,7 +568,7 @@ public class LolcatActivity extends Activity
         // separate steps, maybe there's some easy way (given an
         // OutputStream) to directly talk to the MediaProvider
         // (i.e. com.android.provider.MediaStore) and say "here's an
-        // image, please save it somwhere and return the URI to me"...
+        // image, please save it somewhere and return the URI to me"...
 
         // Save the bitmap to a file on the sdcard.
         // (Based on similar code in MusicUtils.java.)

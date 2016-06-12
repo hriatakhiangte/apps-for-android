@@ -49,7 +49,7 @@ import java.util.HashMap;
  * an error message is displayed. Clicking any stored user launches PhotostreamActivity.
  *
  * This activity is also used to create Home shortcuts. When the intent
- * {@link Intent#ACTION_CREATE_SHORTCUT} is used to start this activity, sucessful login
+ * {@link Intent#ACTION_CREATE_SHORTCUT} is used to start this activity, successful login
  * returns a shortcut Intent to Home instead of proceeding to PhotostreamActivity.
  *
  * The shortcut Intent contains the real name of the user, his buddy icon, the action

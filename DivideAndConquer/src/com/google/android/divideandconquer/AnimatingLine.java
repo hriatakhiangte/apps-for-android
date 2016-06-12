@@ -40,7 +40,7 @@ public class AnimatingLine extends Shape2d {
     /**
      * @param direction The direction of the line
      * @param now What 'now' is
-     * @param axisStart Where on the perpindicular axis the line is extending from
+     * @param axisStart Where on the perpendicular axis the line is extending from
      * @param start The point the line is extending from on the parallel axis
      * @param min The lower bound for the line (i.e the left most point)
      * @param max The upper bound for the line (i.e the right most point)
