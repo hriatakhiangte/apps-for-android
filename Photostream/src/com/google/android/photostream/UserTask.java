@@ -200,7 +200,7 @@ public abstract class UserTask<Params, Progress, Result> {
                 } catch (InterruptedException e) {
                     android.util.Log.w(LOG_TAG, e);
                 } catch (ExecutionException e) {
-                    throw new RuntimeException("An error occured while executing doInBackground()",
+                    throw new RuntimeException("An error occurred while executing doInBackground()",
                             e.getCause());
                 } catch (CancellationException e) {
                     message = sHandler.obtainMessage(MESSAGE_POST_CANCEL,
@@ -208,7 +208,7 @@ public abstract class UserTask<Params, Progress, Result> {
                     message.sendToTarget();
                     return;
                 } catch (Throwable t) {
-                    throw new RuntimeException("An error occured while executing "
+                    throw new RuntimeException("An error occurred while executing "
                             + "doInBackground()", t);
                 }
 
@@ -258,7 +258,7 @@ public abstract class UserTask<Params, Progress, Result> {
     /**
      * Runs on the UI thread after {@link #doInBackground(Object[])}. The
      * specified result is the value returned by {@link #doInBackground(Object[])}
-     * or null if the task was cancelled or an exception occured.
+     * or null if the task was cancelled or an exception occurred.
      *
      * @param result The result of the operation computed by {@link #doInBackground(Object[])}.
      *

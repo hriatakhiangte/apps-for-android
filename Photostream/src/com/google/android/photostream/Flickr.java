@@ -875,13 +875,13 @@ class Flickr {
     }
 
     /**
-     * Checks the specified user's feed to see if any updated occured after the
+     * Checks the specified user's feed to see if any updated occurred after the
      * specified date.
      *
      * @param user The user whose feed must be checked.
      * @param reference The date after which to check for updates.
      *
-     * @return True if any update occured after the reference date, false otherwise.
+     * @return True if any update occurred after the reference date, false otherwise.
      */
     boolean hasUpdates(User user, final Calendar reference) {
         final Uri.Builder uri = new Uri.Builder();

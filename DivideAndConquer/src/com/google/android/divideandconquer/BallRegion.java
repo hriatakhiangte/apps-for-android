@@ -138,7 +138,7 @@ public class BallRegion extends Shape2d {
     /**
      * Update the balls an (if it exists) the animating line in this region.
      * @param now in millis
-     * @return A new region if a split has occured because the animating line
+     * @return A new region if a split has occurred because the animating line
      *     finished.
      */
     public BallRegion update(long now) {

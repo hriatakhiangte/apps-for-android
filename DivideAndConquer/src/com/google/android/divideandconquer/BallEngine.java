@@ -76,7 +76,7 @@ public class BallEngine {
     }
 
     /**
-     * Update the notion of 'now' in milliseconds.  This can be usefull
+     * Update the notion of 'now' in milliseconds.  This can be useful
      * when unpausing for instance.
      * @param now Milliseconds since some consistent point in time.
      */
